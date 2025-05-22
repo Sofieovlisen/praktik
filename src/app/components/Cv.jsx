@@ -84,7 +84,7 @@ const text = {
       date: "2017 - 2020",
     },
     ud_fire: {
-      job: "Udveksling",
+      job: "Udveksling | USA",
       place: "Willowbrook High School ",
       date: "2016 - 2017",
       description:
@@ -167,7 +167,7 @@ const text = {
       date: "2017 - 2020",
     },
     ud_fire: {
-      job: "Exchange Program",
+      job: "Exchange Program | USA",
       place: "Willowbrook High School | USA",
       date: "2016 - 2017",
       description:
