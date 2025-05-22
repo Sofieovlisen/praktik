@@ -194,6 +194,7 @@ const Cv = () => {
         <div className="pb-8">
           <Image
             src="/IMG_1398.jpeg"
+            alt="Sofie"
             width={200}
             height={300}
             className=" place-self-center shadow-lg mb-4"
