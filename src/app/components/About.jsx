@@ -57,7 +57,7 @@ const About = () => {
       </div>
 
       <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit mt-9 ">
-        <div className=" md:min-h-dvh min-h-[50dvh]  ">
+        <div className="md:min-h-full min-h-dvh   ">
           <h1 className=" md:text-8xl text-6xl sticky top-2 ">2. CV</h1>
         </div>
         <div className="col-start-2  mt-40  ">
