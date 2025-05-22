@@ -266,7 +266,7 @@ const Cv = () => {
         <div>
           <h2 className="font-bold text-2xl">{text[language].title}</h2>
           <hr />
-          <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
             <div className="w-fit">
               <p className="font-bold md:text-[18px]">
                 {text[language].et.job}
@@ -279,7 +279,7 @@ const Cv = () => {
 
             <p>{text[language].et.description}</p>
           </div>
-          <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
             <div className="w-fit">
               <p className="font-bold md:text-[18px]">
                 {text[language].to.job}
@@ -292,7 +292,7 @@ const Cv = () => {
 
             <p>{text[language].to.description}</p>
           </div>
-          <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
             <div className="w-fit">
               <p className="font-bold md:text-[18px]">
                 {text[language].tre.job}
@@ -305,7 +305,7 @@ const Cv = () => {
 
             <p>{text[language].tre.description}</p>
           </div>
-          <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
             <div className="w-fit">
               <p className="font-bold  md:text-[18px]">
                 {text[language].fire.job}
@@ -318,7 +318,7 @@ const Cv = () => {
 
             <p>{text[language].fire.description}</p>
           </div>
-          <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
             <div className="w-fit">
               <p className="font-bold  md:text-[18px]">
                 {text[language].fem.job}
@@ -331,7 +331,7 @@ const Cv = () => {
 
             <p>{text[language].fem.description}</p>
           </div>
-          <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
             <div className="w-fit">
               <p className="font-bold text-nowrap md:text-[18px]">
                 {text[language].seks.job}
@@ -350,7 +350,7 @@ const Cv = () => {
           <div>
             <h1 className="font-semibold text-2xl">{text[language].title2}</h1>
             <hr />
-            <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
+            <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
               <div className="w-fit">
                 <h3 className="text-pretty  font-bold md:text-[18px]">
                   {text[language].ud_et.job}
@@ -364,7 +364,7 @@ const Cv = () => {
               <p>{text[language].ud_et.description}</p>
             </div>
 
-            <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
+            <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
               <div className="w-fit ">
                 <h3 className="text-pretty  font-bold  md:text-[18px]">
                   {text[language].ud_to.job}
@@ -387,7 +387,7 @@ const Cv = () => {
               <p>{text[language].ud_tre.date}</p>
             </div>
 
-            <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
+            <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
               <div className="w-fit">
                 <h3 className="text-pretty font-bold md:text-[18px]">
                   {text[language].ud_fire.job}
