@@ -268,7 +268,7 @@ const Cv = () => {
           <h2 className="font-bold text-2xl">{text[language].title}</h2>
           <hr />
           <div className="grid grid-cols-2 p-2 gap-5 pl-1.5">
-            <div className="w-fit">
+            <div className="w-full break-words">
               <p className="font-bold md:text-[18px]">
                 {text[language].et.job}
               </p>
@@ -281,7 +281,7 @@ const Cv = () => {
             <p>{text[language].et.description}</p>
           </div>
           <div className="grid grid-cols-2 p-2 gap-5 pl-1.5">
-            <div className="w-fit">
+            <div className="w-full break-words">
               <p className="font-bold md:text-[18px]">
                 {text[language].to.job}
               </p>
@@ -294,7 +294,7 @@ const Cv = () => {
             <p>{text[language].to.description}</p>
           </div>
           <div className="grid grid-cols-2 p-2 gap-5 pl-1.5">
-            <div className="w-fit">
+            <div className="w-full break-words">
               <p className="font-bold md:text-[18px]">
                 {text[language].tre.job}
               </p>
@@ -307,7 +307,7 @@ const Cv = () => {
             <p>{text[language].tre.description}</p>
           </div>
           <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
-            <div className="w-fit">
+            <div className="w-full break-words">
               <p className="font-bold  md:text-[18px]">
                 {text[language].fire.job}
               </p>
@@ -333,7 +333,7 @@ const Cv = () => {
             <p>{text[language].fem.description}</p>
           </div>
           <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
-            <div className="w-fit">
+            <div className="w-full break-words">
               <p className="font-bold text-nowrap md:text-[18px]">
                 {text[language].seks.job}
               </p>
@@ -352,7 +352,7 @@ const Cv = () => {
             <h1 className="font-semibold text-2xl">{text[language].title2}</h1>
             <hr />
             <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
-              <div className="w-fit">
+              <div className="w-full break-words">
                 <h3 className="text-pretty  font-bold md:text-[18px]">
                   {text[language].ud_et.job}
                 </h3>
@@ -389,7 +389,7 @@ const Cv = () => {
             </div>
 
             <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
-              <div className="w-fit">
+              <div className="w-full break-words">
                 <h3 className="text-pretty font-bold md:text-[18px]">
                   {text[language].ud_fire.job}
                 </h3>
