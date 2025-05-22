@@ -63,7 +63,7 @@ const About = () => {
         <div className="col-start-2  h-1/2 md:mt-56 ">
           <Cv></Cv>
         </div>
-        <div className="h-1/2"></div>
+        <div className="h-screen"></div>
       </div>
     </section>
   );
