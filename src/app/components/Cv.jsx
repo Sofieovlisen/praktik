@@ -189,7 +189,7 @@ const text = {
 const Cv = () => {
   const { language } = useLanguage();
   return (
-    <section className="lg:grid lg:grid-cols-3 lg:gap-5 place-self-center md:w-4/5 text-pretty ">
+    <section className="lg:grid lg:grid-cols-3 lg:gap-5 place-self-center md:w-4/5  text-pretty ">
       <div className="w-fit md:place-self-start place-self-center ">
         <div className="pb-8">
           <Image
@@ -263,11 +263,11 @@ const Cv = () => {
         </div>
       </div>
 
-      <div className="col-span-2">
+      <div className="col-span-2 md:min-w-[500px]">
         <div>
           <h2 className="font-bold text-2xl">{text[language].title}</h2>
           <hr />
-          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-5 pl-1.5">
             <div className="w-fit">
               <p className="font-bold md:text-[18px]">
                 {text[language].et.job}
@@ -280,7 +280,7 @@ const Cv = () => {
 
             <p>{text[language].et.description}</p>
           </div>
-          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-5 pl-1.5">
             <div className="w-fit">
               <p className="font-bold md:text-[18px]">
                 {text[language].to.job}
@@ -293,7 +293,7 @@ const Cv = () => {
 
             <p>{text[language].to.description}</p>
           </div>
-          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-5 pl-1.5">
             <div className="w-fit">
               <p className="font-bold md:text-[18px]">
                 {text[language].tre.job}
@@ -306,7 +306,7 @@ const Cv = () => {
 
             <p>{text[language].tre.description}</p>
           </div>
-          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
             <div className="w-fit">
               <p className="font-bold  md:text-[18px]">
                 {text[language].fire.job}
@@ -319,8 +319,8 @@ const Cv = () => {
 
             <p>{text[language].fire.description}</p>
           </div>
-          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
-            <div className="w-fit">
+          <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
+            <div className="w-full break-words">
               <p className="font-bold  md:text-[18px]">
                 {text[language].fem.job}
               </p>
@@ -332,7 +332,7 @@ const Cv = () => {
 
             <p>{text[language].fem.description}</p>
           </div>
-          <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
             <div className="w-fit">
               <p className="font-bold text-nowrap md:text-[18px]">
                 {text[language].seks.job}
@@ -351,7 +351,7 @@ const Cv = () => {
           <div>
             <h1 className="font-semibold text-2xl">{text[language].title2}</h1>
             <hr />
-            <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
+            <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
               <div className="w-fit">
                 <h3 className="text-pretty  font-bold md:text-[18px]">
                   {text[language].ud_et.job}
@@ -365,9 +365,9 @@ const Cv = () => {
               <p>{text[language].ud_et.description}</p>
             </div>
 
-            <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
-              <div className="w-fit ">
-                <h3 className="text-pretty  font-bold  md:text-[18px]">
+            <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
+              <div className="w-full min-w-5 ">
+                <h3 className=" break-words font-bold  md:text-[18px]">
                   {text[language].ud_to.job}
                 </h3>
                 <p className="font-semibold text-gray-700">
@@ -388,7 +388,7 @@ const Cv = () => {
               <p>{text[language].ud_tre.date}</p>
             </div>
 
-            <div className="grid grid-cols-2 p-2 gap-4 pl-1.5">
+            <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
               <div className="w-fit">
                 <h3 className="text-pretty font-bold md:text-[18px]">
                   {text[language].ud_fire.job}
