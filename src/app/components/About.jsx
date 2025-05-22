@@ -42,7 +42,7 @@ Now I’m looking forward to learning even more during my internship and to gett
 const About = () => {
   const { language } = useLanguage();
   return (
-    <section className="">
+    <section className="max-w-dvw">
       <div className="md:grid md:grid-cols-3  min-h-dvh">
         <div className="min-h-[50dvh]  md:min-h-dvh ">
           <h1 className="sticky top-0  md:text-8xl text-6xl ">
@@ -56,11 +56,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit mt-9 ">
+      <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit mt-9 max-w-dvw ">
         <div className="md:min-h-full min-h-dvh   ">
           <h1 className=" md:text-8xl text-6xl sticky top-2 ">2. CV</h1>
         </div>
-        <div className="col-start-2  mt-40  ">
+        <div className="col-start-2  mt-40 mr-20 ">
           <Cv></Cv>
         </div>
         <div className="h-[50dvh]"></div>
