@@ -44,12 +44,12 @@ const About = () => {
   return (
     <section>
       <div className="md:grid md:grid-cols-3">
-        <div className="h-[50vh] md:h-screen ">
+        <div className="h-[50vh] md:h-dvh ">
           <h1 className="sticky top-0 md:text-8xl text-6xl ">
             {text[language].title}
           </h1>
         </div>
-        <div className=" md:h-1/2 lg:h-screen h-full m-1/3 md:place-self-end col-span-2 max-w-4xl ">
+        <div className=" md:h-1/2  h-full m-1/3 md:place-self-end col-span-2 max-w-4xl ">
           <p className="pt-1.5 pr-8 text-[18px] break-words">
             {text[language].content}
           </p>

@@ -32,12 +32,12 @@ const text = {
       place: "BIWise A/S",
       date: "Maj 2023 - juni 2023",
       description:
-        "Her arbejdede jeg med diverse opgaver inde på BIwises kontor. Jeg arbejde ikke her i længere tid, da jeg blev tilbudt en anden stilling.",
+        "Her arbejdede jeg med diverse opgaver inde på BIWises kontor. Jeg arbejde ikke her i længere tid, da jeg blev tilbudt en anden stilling.",
     },
     tre: {
       job: "Juleassistance | Fuldtid",
-      place: "Magasin Backoffice November",
-      date: "2022 - december 2022",
+      place: "Magasin Backoffice ",
+      date: "November 2022 - december 2022",
       description:
         "Her blev jeg ansat til at assistere de fastansatte kundeserviceagenter, men kom hurtigt til at hjælpe med onboarding og oplæring af nye ansatte. Jeg blev senere tilbudt en fastansættelse.",
     },
@@ -189,7 +189,7 @@ const text = {
 const Cv = () => {
   const { language } = useLanguage();
   return (
-    <section className="lg:grid lg:grid-cols-3 place-self-center md:w-4/5 text-pretty ">
+    <section className="lg:grid lg:grid-cols-3 lg:gap-5 place-self-center md:w-4/5 text-pretty ">
       <div className="w-fit md:place-self-start place-self-center ">
         <div className="pb-8">
           <Image
