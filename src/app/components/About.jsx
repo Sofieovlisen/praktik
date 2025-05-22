@@ -57,10 +57,10 @@ const About = () => {
       </div>
 
       <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit mt-9 ">
-        <div className="md:h-full md:min-h-dvh h-[50dvh] w-fit ">
+        <div className=" md:min-h-dvh min-h-[50dvh]  ">
           <h1 className=" md:text-8xl text-6xl sticky top-2 ">2. CV</h1>
         </div>
-        <div className="col-start-2  mt-10  ">
+        <div className="col-start-2  mt-40  ">
           <Cv></Cv>
         </div>
         <div className="h-[50dvh]"></div>
