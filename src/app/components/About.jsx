@@ -44,7 +44,7 @@ const About = () => {
   return (
     <section>
       <div className="md:grid md:grid-cols-3">
-        <div className="h-screen ">
+        <div className="h-[50vh] md:h-screen ">
           <h1 className="sticky top-0 md:text-8xl text-6xl ">
             {text[language].title}
           </h1>
@@ -57,13 +57,13 @@ const About = () => {
       </div>
 
       <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit">
-        <div className="md:h-full h-screen w-fit ">
+        <div className="md:h-full h-[50vh] w-fit ">
           <h1 className=" md:text-8xl text-6xl sticky top-0 ">2. CV</h1>
         </div>
         <div className="col-start-2  h-1/2 md:mt-56 ">
           <Cv></Cv>
         </div>
-        <div className="h-screen"></div>
+        <div className="h-[50vh]"></div>
       </div>
     </section>
   );
