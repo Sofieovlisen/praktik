@@ -263,11 +263,13 @@ const Cv = () => {
         </div>
       </div>
 
-      <div className="col-span-2 md:min-w-[500px]">
+      <div className="col-span-2 md:min-w-[500px] min-w-[300px] max-w-dvw ">
         <div>
-          <h2 className="font-bold text-2xl">{text[language].title}</h2>
+          <h2 className="w-full break-words font-bold text-2xl">
+            {text[language].title}
+          </h2>
           <hr />
-          <div className="grid grid-cols-2 p-2 gap-5 pl-1.5">
+          <div className="grid grid-cols-2 p-2 gap-5 pl-1.5 w-full sm:max-w-dvw">
             <div className="w-full break-words">
               <p className="font-bold md:text-[18px]">
                 {text[language].et.job}
@@ -334,10 +336,10 @@ const Cv = () => {
           </div>
           <div className="grid grid-cols-2 p-2 gap-7  pl-1.5">
             <div className="w-full break-words">
-              <p className="font-bold text-nowrap md:text-[18px]">
+              <p className="w-full break-words font-bold  md:text-[18px]">
                 {text[language].seks.job}
               </p>
-              <h3 className="font-semibold text-gray-700">
+              <h3 className=" font-semibold text-gray-700">
                 {text[language].seks.place}
               </h3>
               <p>{text[language].seks.date}</p>
