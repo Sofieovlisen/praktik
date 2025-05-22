@@ -21,22 +21,22 @@ const Hero = () => {
   };
 
   return (
-    <section className="h-screen md:p-12 p-6">
-      <div className="mb-2 sm:mb-5">
-        <h1 className="lg:text-8xl text-3xl font-semibold  break-words max-w-full mb-5">
+    <section className="h-full md:p-12 p-2 flex flex-col justify-around">
+      <div className=" sm:mb-5">
+        <h1 className="lg:text-8xl md:text-5xl text-3xl font-semibold  break-words max-w-full mb-5">
           {text[language].title}
         </h1>
-        <h1 className="text-3xl md:text-6xl place-self-end  leading-tight  mb-10">
+        <h1 className="text-2xl  lg:text-6xl place-self-end  leading-tight  ">
           {text[language].subtitle}
         </h1>
-        <div className="absolute bottom-1/5 right-6  ">
-          <h3 className=" text-2xl font-semibold md:text-7xl mt-4">
-            {text[language].name}
-          </h3>
-          <h2 className="text-3xl place-self-center">
-            {text[language].praktik}
-          </h2>
-        </div>
+      </div>
+      <div className=" self-end mb-9">
+        <h3 className=" text-3xl font-semibold lg:text-7xl ">
+          {text[language].name}
+        </h3>
+        <h2 className="lg:text-3xl text-2xl place-self-center">
+          {text[language].praktik}
+        </h2>
       </div>
     </section>
   );

@@ -223,7 +223,7 @@ const Cv = () => {
             </Link>
           </div>
         </div>
-        <div className="grid grid-cols-3 ">
+        <div className="grid grid-cols-3 pb-8">
           <h1 className="col-span-3 place-self-center font-bold text-2xl pb-2">
             {text[language].kval}
           </h1>

@@ -45,7 +45,9 @@ const About = () => {
     <section>
       <div className="md:grid md:grid-cols-3">
         <div className="h-screen ">
-          <h1 className="sticky top-0 text-8xl ">{text[language].title}</h1>
+          <h1 className="sticky top-0 md:text-8xl text-6xl ">
+            {text[language].title}
+          </h1>
         </div>
         <div className=" md:h-1/2 h-screen m-1/3 md:place-self-end col-span-2 max-w-4xl ">
           <p className="pt-1.5 pr-8 text-[18px] break-words">
@@ -56,12 +58,12 @@ const About = () => {
 
       <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit">
         <div className="md:h-full h-screen w-fit ">
-          <h1 className=" text-8xl sticky top-0 ">2. CV</h1>
+          <h1 className=" md:text-8xl text-6xl sticky top-0 ">2. CV</h1>
         </div>
         <div className="col-start-2  h-1/2 md:mt-56 ">
           <Cv></Cv>
         </div>
-        <div className="h-screen"></div>
+        <div className="h-1/2"></div>
       </div>
     </section>
   );
