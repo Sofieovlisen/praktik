@@ -42,25 +42,25 @@ Now I’m looking forward to learning even more during my internship and to gett
 const About = () => {
   const { language } = useLanguage();
   return (
-    <section>
-      <div className="md:grid md:grid-cols-3 relative">
-        <div className="h-[50dvh] md:h-dvh ">
-          <h1 className="sticky top-0 md:text-8xl text-6xl ">
+    <section className="">
+      <div className="md:grid md:grid-cols-3  min-h-dvh">
+        <div className="min-h-[50dvh]  md:min-h-dvh ">
+          <h1 className="sticky top-0  md:text-8xl text-6xl ">
             {text[language].title}
           </h1>
         </div>
-        <div className=" md:h-1/2  h-full m-1/3 md:place-self-end col-span-2 max-w-4xl ">
+        <div className=" md:min-h-1/2  min-h-full m-1/3 md:place-self-end col-span-2 max-w-4xl ">
           <p className="pt-1.5 pr-8 text-[18px] break-words">
             {text[language].content}
           </p>
         </div>
       </div>
 
-      <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit relative">
-        <div className="md:h-full h-[50dvh] w-fit ">
+      <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit mt-9 ">
+        <div className="md:h-full md:min-h-dvh h-[50dvh] w-fit ">
           <h1 className=" md:text-8xl text-6xl sticky top-2 ">2. CV</h1>
         </div>
-        <div className="col-start-2  h-1/2 md:mt-56 ">
+        <div className="col-start-2  mt-10  ">
           <Cv></Cv>
         </div>
         <div className="h-[50dvh]"></div>

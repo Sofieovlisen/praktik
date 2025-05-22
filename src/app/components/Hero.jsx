@@ -21,7 +21,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="h-full md:p-12 p-2 flex flex-col justify-around">
+    <section className="min-h-dvh h-fit md:p-12 p-2 flex flex-col justify-around ">
       <div className=" sm:mb-5">
         <h1 className="lg:text-8xl md:text-5xl text-3xl font-semibold  break-words max-w-full mb-5">
           {text[language].title}

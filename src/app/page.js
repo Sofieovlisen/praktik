@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
         <meta name="robots" content="noindex, nofollow" />
       </Head>
-      <div className="h-dvh">
+      <div className="min-h-dvh">
         <Header></Header>
         <Hero></Hero>
       </div>
