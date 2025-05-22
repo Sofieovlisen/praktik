@@ -189,7 +189,7 @@ const text = {
 const Cv = () => {
   const { language } = useLanguage();
   return (
-    <section className="lg:grid lg:grid-cols-3 place-self-center w-4/5 text-pretty ">
+    <section className="lg:grid lg:grid-cols-3 place-self-center md:w-4/5 text-pretty ">
       <div className="w-fit md:place-self-start place-self-center ">
         <div className="pb-8">
           <Image
@@ -352,7 +352,7 @@ const Cv = () => {
             <hr />
             <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
               <div className="w-fit">
-                <h3 className="text-pretty font-bold md:text-[18px]">
+                <h3 className="text-pretty  font-bold md:text-[18px]">
                   {text[language].ud_et.job}
                 </h3>
                 <p className="font-semibold text-gray-700">
@@ -366,7 +366,7 @@ const Cv = () => {
 
             <div className="grid grid-cols-2 p-2 gap-1.5 pl-1.5">
               <div className="w-fit ">
-                <h3 className="text-pretty font-bold  md:text-[18px]">
+                <h3 className="text-pretty  font-bold  md:text-[18px]">
                   {text[language].ud_to.job}
                 </h3>
                 <p className="font-semibold text-gray-700">
