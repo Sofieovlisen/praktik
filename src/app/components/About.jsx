@@ -49,7 +49,7 @@ const About = () => {
             {text[language].title}
           </h1>
         </div>
-        <div className=" md:h-1/2 h-screen m-1/3 md:place-self-end col-span-2 max-w-4xl ">
+        <div className=" md:h-1/2 lg:h-screen h-full m-1/3 md:place-self-end col-span-2 max-w-4xl ">
           <p className="pt-1.5 pr-8 text-[18px] break-words">
             {text[language].content}
           </p>
@@ -58,7 +58,7 @@ const About = () => {
 
       <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit">
         <div className="md:h-full h-[50vh] w-fit ">
-          <h1 className=" md:text-8xl text-6xl sticky top-0 ">2. CV</h1>
+          <h1 className=" md:text-8xl text-6xl sticky top-2 ">2. CV</h1>
         </div>
         <div className="col-start-2  h-1/2 md:mt-56 ">
           <Cv></Cv>
