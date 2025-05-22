@@ -43,8 +43,8 @@ const About = () => {
   const { language } = useLanguage();
   return (
     <section>
-      <div className="md:grid md:grid-cols-3">
-        <div className="h-[50vh] md:h-dvh ">
+      <div className="md:grid md:grid-cols-3 relative">
+        <div className="h-[50dvh] md:h-dvh ">
           <h1 className="sticky top-0 md:text-8xl text-6xl ">
             {text[language].title}
           </h1>
@@ -56,14 +56,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit">
-        <div className="md:h-full h-[50vh] w-fit ">
+      <div className="md:grid md:grid-cols-[auto, 1fr, 1fr] h-fit relative">
+        <div className="md:h-full h-[50dvh] w-fit ">
           <h1 className=" md:text-8xl text-6xl sticky top-2 ">2. CV</h1>
         </div>
         <div className="col-start-2  h-1/2 md:mt-56 ">
           <Cv></Cv>
         </div>
-        <div className="h-[50vh]"></div>
+        <div className="h-[50dvh]"></div>
       </div>
     </section>
   );

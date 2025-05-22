@@ -26,7 +26,7 @@ const Hero = () => {
         <h1 className="lg:text-8xl md:text-5xl text-3xl font-semibold  break-words max-w-full mb-5">
           {text[language].title}
         </h1>
-        <h1 className="text-2xl  lg:text-6xl place-self-end  leading-tight  ">
+        <h1 className="text-2xl  lg:text-6xl place-self-end   ">
           {text[language].subtitle}
         </h1>
       </div>
